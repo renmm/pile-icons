@@ -1,0 +1,7 @@
+dist/*
+example/*
+demo/*
+test/*
+**/lib/**/*.js
+site/*
+_site/*
