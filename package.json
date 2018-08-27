@@ -18,6 +18,12 @@
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "devDependencies": {
     "@babel/helper-module-imports": "^7.0.0-rc.3",
     "@commitlint/cli": "^6.1.3",
