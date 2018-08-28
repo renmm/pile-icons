@@ -48,7 +48,7 @@
 </style>
 
 <script>
-import * as icons from 'pile-icons';
+import * as icons from '../dist';
 
 console.log(icons)
 

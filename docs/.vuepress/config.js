@@ -4,6 +4,7 @@ const iconPath = path.join(process.cwd(), 'dist');
 
 module.exports = {
   title: 'pile-icons',
+  base: '/pile-icons/',
   themeConfig: {
     repo: 'renmm/pile-icons',
     docsDir: 'docs',

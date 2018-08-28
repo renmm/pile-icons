@@ -9,7 +9,7 @@
     "docs:build": "vuepress build docs",
     "clean": "rimraf ./dist",
     "release": "standard-version",
-    "deploy": "npm run docs:build && deploy.sh",
+    "deploy": "./deploy.sh",
     "commit": "git-cz"
   },
   "husky": {

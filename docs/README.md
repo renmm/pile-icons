@@ -12,5 +12,5 @@ features:
   details: 使用webpack插件 babel-plugin-import 按需加载icon
 - title: svg sprite
   details: 使用webpack插件 svg-sprite-loader 动态生成 svg sprite
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2018-present
 ---
