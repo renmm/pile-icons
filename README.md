@@ -2,6 +2,8 @@
 
 > 此库存放[pile-icons](https://www.npmjs.com/package/pile-icons)的svg图标
 
+[https://renmm.github.io/pile-icons](https://renmm.github.io/pile-icons)
+
 #### 使用`svg`图标
 
 install
