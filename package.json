@@ -1,6 +1,6 @@
 {
   "name": "pile-icons",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "extracted from the svg format icon in pile-ui",
   "main": "dist/index.js",
   "scripts": {
