@@ -8,14 +8,14 @@
   v-clipboard="icon.id" 
   @success="$message.success(`${icon.id}已复制~`)" 
   @error="$message.error('代码复制失败~')"  
-  v-for="icon in icons"
+  v-for="(icon, key) in icons"
 >
   <div class="svg-wrapper">
     <svg :viewBox="icon.viewBox">
       <use :xlink:href="`#${icon.id}`" />
     </svg>
   </div>
-  <p>{{icon.id}}</p>
+  <p>{{key}}</p>
 </div>
 </div>
 
